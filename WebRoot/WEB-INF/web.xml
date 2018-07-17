@@ -48,6 +48,17 @@
   	  <servlet-name>WxServlet</servlet-name>
   	  <url-pattern>/wechat</url-pattern>
   </servlet-mapping> 
+  
+  
+         <servlet>
+  	  <servlet-name>insert_grade</servlet-name>
+  	  <servlet-class>cn.weather.insert_grade</servlet-class>
+  </servlet>  
+  <servlet-mapping>
+  	  <servlet-name>insert_grade</servlet-name>
+  	  <url-pattern>/insert</url-pattern>
+  </servlet-mapping> 
+    
     
 </web-app>
 
